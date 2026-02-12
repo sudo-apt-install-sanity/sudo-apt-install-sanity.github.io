@@ -1,0 +1,30 @@
+.pimpo{
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.nigga{
+    color: brown;
+}
+
+
+
+.nav nav {
+  display: flex;          
+  justify-content: center;
+  gap: 700px;              
+}
+
+.no-underline {
+  text-decoration: none;
+  color: chocolate;
+  font-size: 18px;
+}
+button {
+  width: 250px;
+  height: 320px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
