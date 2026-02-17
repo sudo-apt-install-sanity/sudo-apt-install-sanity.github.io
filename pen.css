@@ -1,0 +1,70 @@
+.pimpo{
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.nigga{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.nav nav {
+  display: flex;          
+  justify-content: center;
+  gap: 700px;              
+}
+
+.no-underline {
+  text-decoration: none;
+  color: chocolate;
+  font-size: 18px;
+}
+button {
+  width: 250px;
+  height: 320px;
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,400italic);
+
+html,body{
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-image{
+  z-index: -1;
+  width: 110%;
+  height: 110%;
+  left: 0;
+top: 0;
+position: absolute;
+background: url('https://images7.alphacoders.com/656/thumb-1920-656799.png')no-repeat left center / cover;
+
+
+
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: 'Lobster Two', cursive;
+  font-style: italic;
+  z-index: 9;
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+}
